@@ -18,6 +18,12 @@ minify:
   
 defaultContentLanguage: ko
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: 잡다한 블로그
@@ -77,8 +83,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "반가워요 \U0001F44B"
+    Content: 잡다한 블로그에 오신것을 환영해요!
 
   socialIcons:
     - name: github
